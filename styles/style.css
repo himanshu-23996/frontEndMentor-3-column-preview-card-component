@@ -63,6 +63,7 @@ main {
 h1 {
     font-family: 'Big Shoulders Display', cursive;
     text-transform: uppercase;
+    letter-spacing: 3px;
 }
 
 p {
@@ -80,6 +81,7 @@ p {
 
 a {
     text-decoration: none;
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 a:hover {
@@ -96,6 +98,7 @@ a:hover {
     align-items: center;
     width: 70%;
     padding: 6% 2% 6% 2%;
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 
