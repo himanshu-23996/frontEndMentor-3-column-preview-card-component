@@ -61,13 +61,13 @@ main {
 }
 
 h1 {
-    font-family: "Big Shoulders Display";
+    font-family: 'Big Shoulders Display', cursive;
     text-transform: uppercase;
 }
 
 p {
     color: hsla(0, 0%, 100%, 0.75);
-    font-family: "Lexend Deca";
+    font-family: 'Lexend Deca', sans-serif;
     padding-bottom: 20%;
     padding-top: 25%;
     letter-spacing: 0.05em;
@@ -136,7 +136,7 @@ a:hover {
         padding-bottom: 15%;
     }
     h1 {
-        font-family: "Big Shoulders Display";
+        font-family: 'Big Shoulders Display', cursive;
         text-transform: uppercase;
     }
     p {
