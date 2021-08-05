@@ -18,8 +18,6 @@
     src: url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
 }
 
-body {}
-
 main {
     background-color: hsl(0, 0%, 95%);
     display: flex;
