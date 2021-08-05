@@ -1,0 +1,171 @@
+*,
+*::before,
+*::after {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@font-face {
+    font-family: "Big Shoulders Display";
+    src: url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;700&display=swap');
+}
+
+@font-face {
+    font-family: "Lexend Deca";
+    src: url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+}
+
+body {}
+
+main {
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+
+.container {
+    width: 70%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: hsl(0, 0%, 95%);
+    border-radius: 10px;
+}
+
+.sec-1 {
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: hsl(31, 77%, 52%);
+    padding: 6%;
+}
+
+.sec-2 {
+    height: 100%;
+    background-color: hsl(184, 100%, 22%);
+    padding: 6%;
+}
+
+.sec-3 {
+    height: 100%;
+    background-color: hsl(179, 100%, 13%);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 6%;
+}
+
+h1 {
+    font-family: "Big Shoulders Display";
+    text-transform: uppercase;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: "Lexend Deca";
+    padding-bottom: 20%;
+    padding-top: 25%;
+    letter-spacing: 0.05em;
+    line-height: 1.5em;
+}
+
+.title-and-description {
+    padding: 25% 0% 25% 0%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.btn {
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    padding: 6% 2% 6% 2%;
+}
+
+
+/* Adjusting the alignment */
+
+.sec-1 {
+    padding-top: 6.5%;
+}
+
+@media(max-width:960px) {
+    main {
+        height: 200%;
+    }
+    .container {
+        width: 85%;
+        height: 80%;
+        flex-direction: column;
+        color: hsl(0, 0%, 95%);
+        padding: 15% 0px 15% 0px;
+    }
+    .sec-1 {
+        width: 80%;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 10px;
+        padding-left: 15%;
+        padding-bottom: 15%;
+    }
+    .sec-2 {
+        width: 80%;
+        padding-left: 15%;
+        padding-bottom: 15%;
+    }
+    .sec-3 {
+        width: 80%;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+        padding-left: 15%;
+        padding-bottom: 15%;
+    }
+    h1 {
+        font-family: "Big Shoulders Display";
+        text-transform: uppercase;
+    }
+    p {
+        padding-bottom: 10%;
+        padding-top: 10%;
+    }
+    .icon-holder {
+        padding: 10% 0% 0% 0%;
+    }
+    .title-and-description {
+        padding: 10% 0% 0% 0%;
+    }
+    .btn {
+        background-color: hsl(0, 0%, 95%);
+        border: 2px solid hsl(0, 0%, 95%);
+    }
+    /* Adjusting the alignment */
+    .sec-1 {
+        padding-top: 6.5%;
+    }
+    .sec-1 .btn-holder a .btn {
+        color: hsl(31, 77%, 52%);
+    }
+    .sec-2 .btn-holder a .btn {
+        color: hsl(184, 100%, 22%);
+    }
+    .sec-3 .btn-holder a .btn {
+        color: hsl(179, 100%, 13%);
+    }
+}
