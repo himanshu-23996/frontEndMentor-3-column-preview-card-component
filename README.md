@@ -14,3 +14,4 @@
 # Topics to be improved upon:
   > - Symmetric Design
   > - Aligning all contents of diff containers in a single line
+  > - Imported Fonts are not working
